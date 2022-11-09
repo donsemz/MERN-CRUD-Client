@@ -2,8 +2,10 @@
 
 A simple MERN Stack React Client to be deployed with Netlify.
 
-Server Available at:
+Hosted Client Available at: https://incredible-marigold-524980.netlify.app
 
+
+Server Available at:
 https://crud-m-stack.herokuapp.com
 
 # Getting Started with Create React App
