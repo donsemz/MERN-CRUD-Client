@@ -11,7 +11,7 @@ function App() {
   //get data to show when app starts
   useEffect(() => {
     axios
-      .get("http://localhost:3001/getFriends")
+      .get("https://crud-m-stack.herokuapp.com/getFriends")
       .then((response) => {
         console.log(response);
         setListOfFriends(response.data);
@@ -25,7 +25,7 @@ function App() {
   //addFriend
   const addFriend = () => {
     axios
-      .post("http://localhost:3001/addFriend", {
+      .post("https://crud-m-stack.herokuapp.com/addFriend", {
         name: name,
         age: age,
         description: description,
@@ -46,7 +46,7 @@ function App() {
   const updateFriend = (id) => {
     const newAge = prompt("Enter the New Age:");
     axios
-      .put("http://localhost:3001/updateFriend", {
+      .put("https://crud-m-stack.herokuapp.com/updateFriend", {
         newAge: newAge,
         id: id,
       })
@@ -68,7 +68,7 @@ function App() {
 
   //deleteFriend
   const deleteFriend = (id) => {
-    axios.delete(`http://localhost:3001/deleteFriend/${id}`).then(
+    axios.delete(`https://crud-m-stack.herokuapp.com/deleteFriend/${id}`).then(
       setListOfFriends(listOfFriends.filter((val)=>{
         return val._id !==id;
       }))
