@@ -1,5 +1,4 @@
 # MERN-CRUD-Client 
-# MERN CRUD Client
 
 A simple MERN Stack React Client to be deployed with Netlify.
 
