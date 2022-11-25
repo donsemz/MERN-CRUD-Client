@@ -11,7 +11,7 @@ function App() {
   //get data to show when app starts
   useEffect(() => {
     axios
-      .get("https://crud-m-stack.herokuapp.com/getFriends")
+      .get("https://tame-gold-sweatpants.cyclic.app/getFriends")
       .then((response) => {
         console.log(response);
         setListOfFriends(response.data);
@@ -25,7 +25,7 @@ function App() {
   //addFriend
   const addFriend = () => {
     axios
-      .post("https://crud-m-stack.herokuapp.com/addFriend", {
+      .post("https://tame-gold-sweatpants.cyclic.app/addFriend", {
         name: name,
         age: age,
         description: description,
@@ -46,7 +46,7 @@ function App() {
   const updateFriend = (id) => {
     const newAge = prompt("Enter the New Age:");
     axios
-      .put("https://crud-m-stack.herokuapp.com/updateFriend", {
+      .put("https://tame-gold-sweatpants.cyclic.app/updateFriend", {
         newAge: newAge,
         id: id,
       })
@@ -68,7 +68,7 @@ function App() {
 
   //deleteFriend
   const deleteFriend = (id) => {
-    axios.delete(`https://crud-m-stack.herokuapp.com/deleteFriend/${id}`).then(
+    axios.delete(`https://tame-gold-sweatpants.cyclic.app/deleteFriend/${id}`).then(
       setListOfFriends(listOfFriends.filter((val)=>{
         return val._id !==id;
       }))
