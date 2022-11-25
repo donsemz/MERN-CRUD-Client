@@ -1,6 +1,12 @@
 # MERN-CRUD-Client 
+# MERN CRUD Client
 
 A simple MERN Stack React Client to be deployed with Netlify.
+
+
+## Project Description
+
+This project was bootstrapped with Create React App](https://github.com/facebook/create-react-app) and designed to use MongoDB, ExpressJs, NodeJs and react operations. The application is a simple CRUD App which demonstrates a MERN Stack. The project is hosted below:
 
 Hosted Client Available at: 
 https://splendid-torrone-fc7a9a.netlify.app/
