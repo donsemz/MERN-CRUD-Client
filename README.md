@@ -2,8 +2,8 @@
 
 A simple MERN Stack React Client to be deployed with Netlify.
 
-Hosted Client Available at: https://incredible-marigold-524980.netlify.app
-
+Hosted Client Available at: 
+https://splendid-torrone-fc7a9a.netlify.app/
 
 Server Available at:
 https://tame-gold-sweatpants.cyclic.app/
