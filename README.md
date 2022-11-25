@@ -6,7 +6,8 @@ Hosted Client Available at: https://incredible-marigold-524980.netlify.app
 
 
 Server Available at:
-https://crud-m-stack.herokuapp.com
+https://tame-gold-sweatpants.cyclic.app/
+
 
 # Getting Started with Create React App
 
